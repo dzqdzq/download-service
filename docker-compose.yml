@@ -1,0 +1,15 @@
+version: '3'
+services:
+  downloadService:
+    image: dzq666/download-service:latest
+    volumes:
+      - /path/to/download:/download
+    environment:
+      WEB_PREFIX: "prefix"
+      WEB_UI_USER: "admin: your username"
+      WEB_UI_PASS: "admin: your password"
+      USER: "curl|wget: username"
+      PASS: "curl|wget: password"
+    ports:
+      - "3000:3000"
+      - "8080:80"

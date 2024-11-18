@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "download.js",
+  "author": "dzqdzq",
+  "license": "ISC",
+  "description": "一个带认证的下载服务器, 基于express",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "express": "^4.21.1"
+  }
+}
