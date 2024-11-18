@@ -6,7 +6,7 @@
 
 ## Download
 ```shell
-curl -u <curl user>:<curl pass> http://<your ip>:3000 -O -f
+curl -u <curl user>:<curl pass> http://<your ip>:3000/filepath -O -f
 ```
 
 ## UI Admin
