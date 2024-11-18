@@ -12,3 +12,7 @@ curl -u <curl user>:<curl pass> http://<your ip>:3000 -O -f
 ## UI Admin
 1. Open the browser and enter http://\<your ip\>:8080.
 2. input admin user/pass
+
+## Contribute
+1. [express](https://github.com/expressjs/express)
+2. [tinyfilemanager](https://github.com/prasathmani/tinyfilemanager)
